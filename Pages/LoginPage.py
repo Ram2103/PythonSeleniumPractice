@@ -23,9 +23,9 @@ class LoginPage(WebDriverClass):
         self.clickElement(*self.btn_Signin)
         self.waitForElement(*self.input_Username)
         self.clickElement(*self.input_Username)
-        self.sendText(*self.input_Username, "ramanathan11111@gmail.com")
+        self.sendText(*self.input_Username, "xyz@mail.com")
         self.clickElement(*self.input_Password)
-        self.sendText(*self.input_Password, "ramanathan21")
+        self.sendText(*self.input_Password, "abc")
         self.clickElement(*self.btn_Login)
         self.waitForElement(*self.btn_Profile)
 
